@@ -1,0 +1,13 @@
+com\stackroute\wishlistms\dto\WishListCityDeatils.class
+com\stackroute\wishlistms\entity\article.class
+com\stackroute\wishlistms\repository\IArticleRepository.class
+com\stackroute\wishlistms\CustomMongoConfig.class
+com\stackroute\wishlistms\controller\WishListRestApi.class
+com\stackroute\wishlistms\util\WishlistCityUtil.class
+com\stackroute\wishlistms\DemoApplication.class
+com\stackroute\wishlistms\controller\CentralizedExceptionHandler.class
+com\stackroute\wishlistms\exceptions\articleAlreadyExistsException.class
+com\stackroute\wishlistms\service\IWishListService.class
+com\stackroute\wishlistms\exceptions\articleNotFoundException.class
+com\stackroute\wishlistms\dto\AddToWatchList.class
+com\stackroute\wishlistms\service\WishListServiceImpl.class
