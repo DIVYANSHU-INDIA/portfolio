@@ -1,0 +1,26 @@
+.content{
+    height: 495px;
+    display: flex;
+    margin-top: 32px;
+    color: rgb(246, 249, 250);
+    background-color: rgba(174, 174, 253, 0.24); 
+
+    overflow: hidden;
+}
+
+.content-left{
+    
+    width: 80%;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    justify-content: center
+}
+.content-right{
+    width: 50%;
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+
+}

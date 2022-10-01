@@ -1,0 +1,10 @@
+.logo-image{
+    width: 40px;
+    height: fit-content;
+    border-radius: 100%;
+    overflow: hidden;
+ 
+}
+li a{
+    font-size: large;
+}

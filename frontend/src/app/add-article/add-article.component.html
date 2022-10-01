@@ -1,0 +1,17 @@
+<section class="form">
+<form [formGroup]="myform" (ngSubmit)="addArticle()">
+    <div class="form-group">
+        <label for="FormControlInput1">Author Name</label>
+        <input type="text" formControlName="authName" class="form-control" id="FormControlInput1" placeholder="Your Name">
+    </div>
+    <div class="form-group">
+        <label for="FormControlInput2">Heading</label>
+        <input type="text" formControlName="heading" class="form-control" id="FormControlInput2" placeholder="Your Heading">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Content</label>
+        <textarea class="form-control" formControlName="content" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success mb-2">Submit</button>
+</form>
+</section>

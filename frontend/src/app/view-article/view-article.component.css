@@ -1,0 +1,15 @@
+ 
+  .scroll{
+    margin: 1%;
+    margin-bottom: 1%;
+    overflow-x: scroll;
+    height: fit-content;
+    scrollbar-color: rgba(122, 76, 250, 0.24) rgba(252, 252, 250, 0);
+    
+}
+/* You can add global styles to this file, and also import other style files */
+
+.viewport{
+    width: 70%;
+    margin: auto;
+}
